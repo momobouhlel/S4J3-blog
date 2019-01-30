@@ -3,3 +3,5 @@ class AddUserstoComments < ActiveRecord::Migration[5.2]
     add_reference :comments, :user, foreign_key: true
   end
 end
+
+#Mettre en lien deux tables
