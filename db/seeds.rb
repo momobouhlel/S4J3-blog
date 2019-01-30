@@ -7,7 +7,7 @@ require 'faker'
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+=begin 
 # 20.times do |index|
 #   u = User.new
 #   u.first_name = 'Maxime' + index.to_s
@@ -80,5 +80,4 @@ p "10 likes ont été créés"
 
 # p "4 likes ont été attribués par 10 users"
 
-
-#<Comment id: nil, article_id: nil, content: nil, created_at: nil, updated_at: nil, user_id: nil>
+ =end
